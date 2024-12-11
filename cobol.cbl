@@ -6,6 +6,5 @@
        DATA DIVISION.
 
        PROCEDURE DIVISION.
-       BEGIN.
            DISPLAY "Hello, World!".
            STOP RUN.
