@@ -3,7 +3,7 @@
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 WS-NAME     PIC X(10).
+       01 WS-NAME     PIC A(10). 
        01 WS-AGE      PIC 9(3).
 
        PROCEDURE DIVISION.
