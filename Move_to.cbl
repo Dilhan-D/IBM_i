@@ -14,4 +14,5 @@
       * AFFICHER LA VALEUR DE E-VAR.
            DISPLAY 'Affiche le message : 'E-VAR.
 
-           STOP RUN.  
+           STOP RUN.
+             
