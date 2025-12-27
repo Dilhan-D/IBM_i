@@ -9,3 +9,4 @@ testcompute.exe
 testMove_to.exe
 .\exe
 *.exe
+.\exe\*
