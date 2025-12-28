@@ -1,4 +1,5 @@
-      * 
+      *Date: 2025-12-28
+      *Simple COBOL program to demonstrate simples ds and displays 
        IDENTIFICATION DIVISION.
        PROGRAM-ID. CBL1.
        AUTHOR. Dilhan.
@@ -15,6 +16,7 @@
               10 V-STREET PIC A(30).
               10 V-CITY   PIC X(20).
               10 V-STATE  PIC 9(3).
+         01 Acpt          PIC X(100).
        PROCEDURE DIVISION.
        BEGIN.
            MOVE "Dilhan" TO V-NAME.
@@ -31,4 +33,10 @@
       *    DISPLAY "City =" V-CITY.
       *    DISPLAY "State =" V-STATE.
            DISPLAY V-ADDRESS " " V-STREET " " V-CITY " " V-STATE.
+           DISPLAY "ACCEPT simple".
+           DISPLAY "Entrez votre nom: ".
+           ACCEPT Acpt.                *> Attend l'input utilisateur
+           DISPLAY "Name " Acpt.
+           DISPLAY " ".
            STOP RUN.
+           
