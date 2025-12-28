@@ -16,7 +16,9 @@
               10 V-STREET PIC A(30).
               10 V-CITY   PIC X(20).
               10 V-STATE  PIC 9(3).
-         01 Acpt          PIC X(100).
+         01 V-ACTP        PIC X(100).
+         01 V-HOUR        PIC X(50).
+
        PROCEDURE DIVISION.
        BEGIN.
            MOVE "Dilhan" TO V-NAME.
@@ -35,8 +37,12 @@
            DISPLAY V-ADDRESS " " V-STREET " " V-CITY " " V-STATE.
            DISPLAY "ACCEPT simple".
            DISPLAY "Entrez votre nom: ".
-           ACCEPT Acpt.                *> Attend l'input utilisateur
-           DISPLAY "Name " Acpt.
+           ACCEPT V-ACTP.                *> Attend l'input utilisateur
+           DISPLAY "Name " V-ACTP.
+           DISPLAY " ".
+           DISPLAY "ACCEPT FROM TIME".
+           ACCEPT V-HOUR FROM TIME.            *> Heure actuelle
+           DISPLAY "Heure actuelle: " V-HOUR.
            DISPLAY " ".
            STOP RUN.
            
