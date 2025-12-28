@@ -1,7 +1,8 @@
-# 🚀 IBM_i
+# 🚀 IBM
 # Auteur : Dilhan 
 
-Ce dépôt reflète **mes premiers pas et mon apprentissage sur IBM i et Z/OS**.
+
+Ce dépôt reflète **mes premiers pas et mon apprentissage sur des technos tel que le cobol, makefile et plus encore**.
 
 Je m’entraîne à utiliser les technologies suivantes afin de mieux comprendre  
 les bases du **développement** et du **traitement de données** sur cette plateforme :
@@ -9,6 +10,7 @@ les bases du **développement** et du **traitement de données** sur cette plate
 ## 🛠️ Technologies & Langages
 - **COBOL**
 - **RPGLE**
+- **MAKEFILE**
 - **CL / JCL**
 - **SQL**
 
