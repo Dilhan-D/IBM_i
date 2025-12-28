@@ -1,4 +1,5 @@
 # 🚀 IBM_i
+# Auteur : Dilhan 
 
 Ce dépôt reflète **mes premiers pas et mon apprentissage sur IBM i et Z/OS**.
 
