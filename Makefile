@@ -28,6 +28,7 @@ all:
 	$(COBC) -x src/perform.cbl
 	$(COBC) -x src/testIF.cbl
 	$(COBC) -x src/Hello_world.cbl
+	$(COBC) -x -o .\Exe\CBL1.exe src/CBL1.cbl
 	@echo "ALL FILES COMPILED"
 clean:
 	del -f .\Move_to.exe
