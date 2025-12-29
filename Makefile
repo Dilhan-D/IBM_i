@@ -29,6 +29,7 @@ all:
 	$(COBC) -x src/testIF.cbl
 	$(COBC) -x src/Hello_world.cbl
 	$(COBC) -x -o .\Exe\CBL1.exe src/CBL1.cbl
+	$(COBC) -x -o .\Exe\BoucleFor.exe src/BoucleFor.cbl
 	@echo "ALL FILES COMPILED"
 clean:
 	del -f .\Move_to.exe
