@@ -24,12 +24,12 @@ validate:
 
 all:
 #	cobc -x -o .\Exe\Hell_world.exe .\src\Hello_world.cbl
-	$(COBC) -x src/Move_to.cbl
-	$(COBC) -x src/perform.cbl
-	$(COBC) -x src/testIF.cbl
-	$(COBC) -x src/Hello_world.cbl
-	$(COBC) -x -o .\Exe\CBL1.exe src/CBL1.cbl
-	$(COBC) -x -o .\Exe\BoucleFor.exe src/BoucleFor.cbl
+	$(COBC) -x -o .\Exe\Move_to.exe     src/Move_to.cbl
+	$(COBC) -x -o .\Exe\perform.exe     src/perform.cbl
+	$(COBC) -x -o .\Exe\TestIf.exe      src/testIF.cbl
+	$(COBC) -x -o .\Exe\Hello_world.exe src/Hello_world.cbl
+	$(COBC) -x -o .\Exe\CBL1.exe        src/CBL1.cbl
+	$(COBC) -x -o .\Exe\BoucleFor.exe   src/BoucleFor.cbl
 	@echo "ALL FILES COMPILED"
 clean:
 	del -f .\Move_to.exe
