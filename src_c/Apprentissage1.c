@@ -20,3 +20,6 @@ int sum = a + b;
 printf("%d", b);
 printf("%d", a);
 printf("%d", sum);
+a, b =50;
+printf("%d", a);
+printf("%d", b);
