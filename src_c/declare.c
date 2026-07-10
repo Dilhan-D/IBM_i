@@ -6,6 +6,10 @@ int main() {
     int *p;
     p = &a;
 
-    printf("%d\n", *p); //valeurs négatives égalements
-    printf("%u\n", *p); //values positifs uniquements
+    printf("%d\n", *p); //valeurs aléatoire négatives égalements
+    printf("%u\n", *p); //values aléatoire positifs uniquements
+
+
+    *p = 8;
+    printf("%d\n", a); //j'ai modifié la valeur de a à travers le pointeur p
 }
