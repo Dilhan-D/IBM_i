@@ -12,6 +12,7 @@ les bases du **développement** et du **traitement de données** :
 - **C**
 - **RUST**
 - **SQL**
+- **SQLRPGLE**
 - **et plus encore...**
 
 # [![COBOL](https://img.shields.io/badge/COBOL-005CA5?style=for-the-badge&logo=cobol&logoColor=white)](https://fr.wikipedia.org/wiki/Cobol)
@@ -33,7 +34,10 @@ les bases du **développement** et du **traitement de données** :
   **Visual Studio Build Tools (obligatoire sur Windows) :  - C++ build tools(MSVC)  - Windows SDK**  
   **Rustc est le compilateur officiel du langage de programmation Rust. Il permet de compiler du code source Rust en code machine exécutable.**  
   **Exemple de compil : `rustc main.rs`**  
-  
+
+# [![RPGLE](https://img.shields.io/badge/RPGLE-IBM%20i-05294B?style=for-the-badge)](https://www.ibm.com/docs/en/i)
+  **Début de la formation rust : *02/09/2026***   
+  **Compilateur -> IBM I**  
 
   ## 🎯 Objectifs 
 - Développer une meilleure compréhension des processus de développement.
