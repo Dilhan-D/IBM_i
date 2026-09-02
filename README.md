@@ -12,7 +12,7 @@ les bases du **développement** et du **traitement de données** :
 - **C**
 - **RUST**
 - **SQL**
-- **SQLRPGLE**
+- **RPGLE**
 - **et plus encore...**
 
 # [![COBOL](https://img.shields.io/badge/COBOL-005CA5?style=for-the-badge&logo=cobol&logoColor=white)](https://fr.wikipedia.org/wiki/Cobol)
@@ -59,5 +59,5 @@ les bases du **développement** et du **traitement de données** :
 [![GCC](https://img.shields.io/badge/GCC-5C2D91?style=for-the-badge)](https://gcc.gnu.org/)  
 [![Rustc](https://img.shields.io/badge/Rustc-black?style=for-the-badge)](https://rust-lang.org/)  
 [![Visual Studio Build Tools](https://img.shields.io/badge/VS%20Build%20Tools-required%20on%20Windows-5C2D91?style=for-the-badge)](https://visualstudio.microsoft.com/visual-cpp-build-tools/)  
-
+[![IBMi](https://img.shields.io/badge/IBM%20i-05294B?style=for-the-badge)](https://www.ibm.com/docs/en/i)  
 📘 *Ce dépôt évoluera au fil de mon apprentissage.*
